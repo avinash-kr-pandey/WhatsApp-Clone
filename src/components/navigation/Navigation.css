@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navigation-main{
+    background-color: rgb(30, 29, 29);
+}
+.Text{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+image{
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,52 @@
+/* Apply a reset to remove default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  .MainSidebar {
+    display: flex;
+    height: 100%;
+  }
+  .sidebar {
+    background-color: rgb(28, 28, 28);
+    width: 40px;    
+    /* padding: 30px; */
+    color: white;
+  }
+  .icon{
+    padding: 10px;
+    display: flex;
+    margin-top: 60px;
+    cursor: pointer;
+    
+  }
+  .content {
+    flex: 1;
+    /* padding: 20px; */
+  }
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 20px;
+    }
+  }
+  
